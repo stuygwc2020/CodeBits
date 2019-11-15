@@ -1,0 +1,17 @@
+p {
+  font-size: 25px;
+  color: aliceblue;
+  background-color: thistle;
+  text-align: center;
+  text-decoration: line-through;
+}
+
+ul {
+  color: purple;
+}
+
+img {
+  border-radius: 10px;
+  border: 5px solid red;
+  width: 50%;
+}
