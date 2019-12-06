@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>What Can JavaScript Do?</h1>
+    <ul>
+      <li><p>JavaScript can change HTML attribute values.</p></li>
+      <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+      <button onclick="document.getElementById('myImage').style='width:600px'">Help Alice grow!</button>
+      <button onclick="document.getElementById('myImage').style='width:100px'">Help Alice shrink!</button>
+      <br>
+      <img id="myImage" src="https://d1e4pidl3fu268.cloudfront.net/29c1ed4e-06d5-495f-982d-b6e1ff15d122/alice800x600.png" style="width:250px">
+      <br><br><br>
+      <li><p>JavaScript can also change HTML styling.</p></li>
+      <p>In this case JavaScript changes the value of the color of an heading.</p>
+      <h3 id="myText">Here is some text.</h3>
+      <button onclick="document.getElementById('myText').style='color:red'">Click here to turn text red!</button>
+      <button onclick="document.getElementById('myText').style='color:green'">Click here to turn it green!</button>
+      <br><br><br>
+      <li><p>JavaScript can also show or hide HTML elements.</p></li>
+      <button onclick="document.getElementById('myShow').style='display:block;'">Click here to show!</button>
+      <button onclick="document.getElementById('myShow').style='display:none;'">Click here to hide!</button>
+      <img id="myShow" src="http://www.todayifoundout.com/wp-content/uploads/2017/11/rick-astley.png" style="display:none;" width="300px">
+    </ul>
+  </body>
+</html>
